@@ -9,17 +9,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Setup .NET Core 3.1
+      - name: Setup .NET Core 6.0.*
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "6.0.x"
       - name: Generate Documentation
         uses: FuLagann/csharp-docs-generator@v1.0
         with:
-          build-tasks: dotnet build
+          build-tasks: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj
           branch-name: docs
           cleanup-tasks: dotnet clean
-          binaries: src/Sabuto.Trello/bin/Debug/Sabuto.Trello.dll
+          binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.dll
           output-path: docs/api
           user-email: ${{ secrets.EMAIL }}
           user-name: sabuto
