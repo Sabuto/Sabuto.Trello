@@ -20,6 +20,6 @@ jobs:
           branch-name: docs
           cleanup-tasks: dotnet clean
           binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.Core.dll
-          output-path: docs/api
+          output-path: docs
           user-email: ${{ secrets.EMAIL }}
           user-name: sabuto
