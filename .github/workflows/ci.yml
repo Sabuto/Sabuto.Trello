@@ -21,5 +21,5 @@ jobs:
           cleanup-tasks: dotnet clean
           binaries: src/Sabuto.Trello/bin/Debug/Sabuto.Trello.dll
           output-path: docs/api
-          user-email: ${{ secrets.GITHUB_EMAIL }}
+          user-email: ${{ secrets.EMAIL }}
           user-name: sabuto
