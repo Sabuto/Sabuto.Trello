@@ -5,7 +5,7 @@ on:
 jobs:
   build-and-publish-nuget:
     runs-on: ubuntu-latest
-    name: Generate Docs
+    name: Build and Publish to nuget
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -18,9 +18,6 @@ jobs:
       - name: Build
         run: dotnet build src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj -p:Version=${VERSION} --configuration Release
       - name: Pack
-        run: | 
-          dotnet pack src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj --configuration Release /p:Version=${VERSION}
+        run: dotnet pack src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj --configuration Release /p:Version=${VERSION}
       - name: Publish
-        run: |
-          ls src/Sabuto.Trello/Sabuto.Trello.Core/bin/Release
-          dotnet nuget push src/Sabuto.Trello/Sabuto.Trello.Core/bin/Release/Sabuto.Trello.Core.${VERSION}.nupkg --api-key oy2isp4icon7p7jsfezqma7yah7ye2aerjeeiaqsbikpi4 -s 'https://api.nuget.org/v3/index.json'
+        run: dotnet nuget push src/Sabuto.Trello/Sabuto.Trello.Core/bin/Release/Sabuto.Trello.${VERSION}.nupkg --api-key oy2isp4icon7p7jsfezqma7yah7ye2aerjeeiaqsbikpi4 -s 'https://api.nuget.org/v3/index.json'
