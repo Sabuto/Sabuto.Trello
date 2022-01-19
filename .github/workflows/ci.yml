@@ -24,4 +24,3 @@ jobs:
           user-email: ${{ secrets.EMAIL }}
           user-name: sabuto
           project-details-json: project-details.json
-          template: merlot
