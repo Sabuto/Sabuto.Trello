@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabuto.Trello", "Sabuto.Trello\Sabuto.Trello.csproj", "{50CF01AA-A43B-4E32-8DA9-FF6F5C9B1DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabuto.Trello.Core", "Sabuto.Trello.Core\Sabuto.Trello.Core.csproj", "{75FE3846-902C-4458-99C8-1566178225B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabuto.Trello.Example", "Sabuto.Trello.Example\Sabuto.Trello.Example.csproj", "{65E07912-CB61-4805-811E-CFF52D17AA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabuto.Trello.Tests", "Sabuto.Trello.Tests\Sabuto.Trello.Tests.csproj", "{5F9DFB8B-D06C-4F58-87D2-EED528A30F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50CF01AA-A43B-4E32-8DA9-FF6F5C9B1DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CF01AA-A43B-4E32-8DA9-FF6F5C9B1DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CF01AA-A43B-4E32-8DA9-FF6F5C9B1DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CF01AA-A43B-4E32-8DA9-FF6F5C9B1DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FE3846-902C-4458-99C8-1566178225B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FE3846-902C-4458-99C8-1566178225B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FE3846-902C-4458-99C8-1566178225B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FE3846-902C-4458-99C8-1566178225B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E07912-CB61-4805-811E-CFF52D17AA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E07912-CB61-4805-811E-CFF52D17AA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E07912-CB61-4805-811E-CFF52D17AA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E07912-CB61-4805-811E-CFF52D17AA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9DFB8B-D06C-4F58-87D2-EED528A30F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9DFB8B-D06C-4F58-87D2-EED528A30F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9DFB8B-D06C-4F58-87D2-EED528A30F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9DFB8B-D06C-4F58-87D2-EED528A30F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
