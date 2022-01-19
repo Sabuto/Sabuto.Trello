@@ -1,26 +1,26 @@
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
 jobs:
   generate-docs:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     name: Generate Docs
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Set VERSION variable from tag
+        run: echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
       - name: Setup .NET Core 6.0.*
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "6.0.x"
-      - name: Setup NuGet
-        uses: NuGet/setup-nuget@v1.0.5
-      - name: Restore dependencies
-        run: nuget restore .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj
       - name: Build
-        run: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj -p:Version=0.0.1 --configuration Release --no-restore
+        run: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj -p:Version=${VERSION} --configuration Release
+      - name: Pack
+        run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
       - name: Publish
-        run: nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API}}
+        run: dotnet nuget push Sabuto.Trello.${VERSION}.nupkg --api-key oy2isp4icon7p7jsfezqma7yah7ye2aerjeeiaqsbikpi4 -s 'https://api.nuget.org/v3/index.json' 
       - name: Generate Documentation
         uses: FuLagann/csharp-docs-generator@v1.0
         with:
