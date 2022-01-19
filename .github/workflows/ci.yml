@@ -16,17 +16,17 @@ jobs:
         with:
           dotnet-version: "6.0.x"
       - name: Build
-        run: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj -p:Version=${VERSION} --configuration Release
+        run: dotnet build src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj -p:Version=${VERSION} --configuration Release
       - name: Pack
-        run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
+        run: dotnet pack src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj --configuration Release /p:Version=${VERSION} --no-build --output .
       - name: Publish
         run: dotnet nuget push Sabuto.Trello.${VERSION}.nupkg --api-key oy2isp4icon7p7jsfezqma7yah7ye2aerjeeiaqsbikpi4 -s 'https://api.nuget.org/v3/index.json' 
       - name: Generate Documentation
         uses: FuLagann/csharp-docs-generator@v1.0
         with:
-          build-tasks: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj
+          build-tasks: dotnet build src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
           branch-name: docs
-          cleanup-tasks: dotnet clean .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj, rmdir .github\ /s /q, rmdir .idea\ /s /q, rmdir src\ /s /q
+          cleanup-tasks: dotnet clean src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
           binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.Core.dll
           output-path: docs
           user-email: ${{ secrets.EMAIL }}
