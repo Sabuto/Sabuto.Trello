@@ -13,6 +13,14 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "6.0.x"
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.5
+      - name: Restore dependencies
+        run: nuget restore .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj
+      - name: Build
+        run: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj -p:Version=0.0.1 --configuration Release --no-restore
+      - name: Publish
+        run: nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API}}
       - name: Generate Documentation
         uses: FuLagann/csharp-docs-generator@v1.0
         with:
