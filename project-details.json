@@ -1,0 +1,13 @@
+﻿{
+  "name": "Sabuto Trello",
+  "version": "0.0.1",
+  "description": "A Simple and elegant way to interact with the trello api",
+  "license": "MIT",
+  "keywords": [
+    "Trello",
+    "Api"
+  ],
+  "author": "Sabuto",
+  "copyrightYear": "2021",
+  "favicon": "https://openclipart.org/image/400px/svg_to_png/203766/dog.png"
+}
