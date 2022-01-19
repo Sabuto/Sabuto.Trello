@@ -19,7 +19,7 @@ jobs:
           build-tasks: dotnet build .\src\Sabuto.Trello\Sabuto.Trello.Core\Sabuto.Trello.Core.csproj
           branch-name: docs
           cleanup-tasks: dotnet clean
-          binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.dll
+          binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.Core.dll
           output-path: docs/api
           user-email: ${{ secrets.EMAIL }}
           user-name: sabuto
