@@ -3,7 +3,7 @@ on:
     tags:
       - "v[0-9]+.[0-9]+.[0-9]+"
 jobs:
-  generate-docs:
+  build-and-publish-nuget:
     runs-on: ubuntu-latest
     name: Generate Docs
     steps:
@@ -22,13 +22,3 @@ jobs:
           dotnet pack src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj --configuration Release /p:Version=${VERSION} --no-build
       - name: Publish
         run: dotnet nuget push src/Sabuto.Trello/Sabuto.Trello.Core/bin/Release/Sabuto.Trello.Core.${VERSION}.nupkg --api-key oy2isp4icon7p7jsfezqma7yah7ye2aerjeeiaqsbikpi4 -s 'https://api.nuget.org/v3/index.json' 
-      - name: Generate Documentation
-        uses: FuLagann/csharp-docs-generator@v1.0
-        with:
-          build-tasks: dotnet build src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
-          branch-name: docs
-          cleanup-tasks: dotnet clean src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
-          binaries: src/Sabuto.Trello/Sabuto.Trello.Core/bin/Debug/net6.0/Sabuto.Trello.Core.dll
-          output-path: docs
-          user-email: ${{ secrets.EMAIL }}
-          user-name: sabuto
