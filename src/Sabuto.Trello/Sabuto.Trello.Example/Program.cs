@@ -14,7 +14,7 @@ var client = new TelloClient("c292397a9d6b53f6b59b771a33882203",
 
 try
 {
-    var board3 = await client.Boards.GetBoard("61e46898e50bc738ecce2e32");
+    var board3 = await client.Boards.GetBoard("61ce10c030fc715808881906");
     board3.Desc = "Welcome to the jungle";
     board3.Name = "new 2!";
 
@@ -27,8 +27,13 @@ try
     // await client.Boards.MarkAsViewed(board3.Id);
     // var key = await client.Boards.CreateEmailKey(board3.Id);
     // var key = await client.Boards.CreateCalendarKey(board3.Id);
-    var enabledPowerUps = await client.Boards.GetPowerUps(board3.Id);
-    var disabledPowerUps = await client.Boards.GetPowerUps(board3.Id, PowerUpsOptions.available);
+    // var enabledPowerUps = await client.Boards.GetPowerUps(board3.Id);
+    // var disabledPowerUps = await client.Boards.GetPowerUps(board3.Id, PowerUpsOptions.available);
+    // var invite = await client.Boards.InviteMember(board3.Id, "bobnud@gmail.com");
+    var cards = await client.Boards.GetAllCards(board3.Id);
+    // var card = await client.Boards.GetCard(board3.Id, cards.First().Id);
+    var filtered = await client.Boards.GetFilteredCards(board3.Id, BoardFilter.closed);
+    var customFields = await client.Boards.GetCustomFields(board3.Id);
 }
 catch (Exception e)
 {

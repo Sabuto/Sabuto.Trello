@@ -61,6 +61,11 @@ public abstract class Client
         {
             throw new TrelloHttpError(await e.GetResponseStringAsync());
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            throw new Exception(ex.Message);
+        }
     }
 
     /// <summary>
@@ -150,6 +155,21 @@ public abstract class Client
         }
 
         return true;
+    }
+
+    protected async Task<T> Put<T>(IEnumerable<string> paths, Dictionary<string, string>? queryParams)
+    {
+        queryParams ??= new Dictionary<string, string>();
+        queryParams.AddRange(SetupAuthentication());
+        try
+        {
+            return await _baseUrl.AppendPathSegments(paths).SetQueryParams(queryParams).PutAsync()
+                .ReceiveJson<T>();
+        }
+        catch (FlurlHttpException e)
+        {
+            throw new TrelloHttpError(await e.GetResponseStringAsync());
+        }
     }
 
     /// <summary>

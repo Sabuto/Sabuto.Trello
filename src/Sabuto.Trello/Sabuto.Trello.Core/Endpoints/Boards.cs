@@ -6,6 +6,7 @@ using Sabuto.Trello.Core.Exceptions;
 using Sabuto.Trello.Core.Extensions;
 using Sabuto.Trello.Core.Models.Action;
 using Sabuto.Trello.Core.Models.Board;
+using Sabuto.Trello.Core.Models.Card;
 using Sabuto.Trello.Core.Models.Interfaces.Board;
 using Sabuto.Trello.Core.Models.Label;
 
@@ -220,5 +221,38 @@ public class Boards : Client
         var qp = new Dictionary<string, string>();
         qp.Add("filter", Enum.GetName(filter));
         return await Get<object>(paths, qp);
+    }
+
+    public async Task<object> InviteMember(string boardId, string email)
+    {
+        var paths = new List<string>(_paths) { boardId, "members" };
+        var qp = new Dictionary<string, string>();
+        qp.Add("email", email);
+        return await Put<object>(paths, qp);
+    }
+
+    public async Task<List<object>> GetAllCards(string boardId)
+    {
+        var paths = new List<string>(_paths) { boardId, "cards" };
+        var cards = await Get<List<object>>(paths);
+        return cards;
+    }
+
+    public async Task<Card> GetCard(string boardId, string cardId)
+    {
+        var paths = new List<string>(_paths) { boardId, "cards", cardId };
+        return await Get<Card>(paths);
+    }
+
+    public async Task<List<Card>> GetFilteredCards(string boardId, BoardFilter filter)
+    {
+        var paths = new List<string>(_paths) { boardId, "cards", Enum.GetName(filter) };
+        return await Get<List<Card>>(paths);
+    }
+
+    public async Task<List<CustomField>> GetCustomFields(string boardId)
+    {
+        var paths = new List<string>(_paths) { boardId, "customFields" };
+        return await Get<List<CustomField>>(paths);
     }
 }
