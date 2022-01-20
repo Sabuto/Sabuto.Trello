@@ -9,7 +9,7 @@ using Sabuto.Trello.Core.Models.Label;
 
 Console.WriteLine("Hello, World!");
 
-var client = new TelloClient("c292397a9d6b53f6b59b771a33882203",
+var client = new TrelloClient("c292397a9d6b53f6b59b771a33882203",
     "4afdd62eb8b37bed2531e9253b24e3da9503b25c9e9ff89da48db9fd9f668fc3");
 
 try
@@ -34,6 +34,8 @@ try
     // var card = await client.Boards.GetCard(board3.Id, cards.First().Id);
     var filtered = await client.Boards.GetFilteredCards(board3.Id, BoardFilter.closed);
     var customFields = await client.Boards.GetCustomFields(board3.Id);
+    var lists = await client.Boards.GetLists(board3.Id);
+    var check = await client.Boards.GetChecklists(board3.Id);
 }
 catch (Exception e)
 {

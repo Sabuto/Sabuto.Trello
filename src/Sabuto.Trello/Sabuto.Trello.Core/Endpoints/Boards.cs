@@ -7,8 +7,10 @@ using Sabuto.Trello.Core.Extensions;
 using Sabuto.Trello.Core.Models.Action;
 using Sabuto.Trello.Core.Models.Board;
 using Sabuto.Trello.Core.Models.Card;
+using Sabuto.Trello.Core.Models.Checklist;
 using Sabuto.Trello.Core.Models.Interfaces.Board;
 using Sabuto.Trello.Core.Models.Label;
+using Sabuto.Trello.Core.Models.List;
 
 namespace Sabuto.Trello.Core.Endpoints;
 
@@ -223,6 +225,12 @@ public class Boards : Client
         return await Get<object>(paths, qp);
     }
 
+    /// <summary>
+    /// Invites the member using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <param name="email">The email</param>
+    /// <returns>A task containing the object</returns>
     public async Task<object> InviteMember(string boardId, string email)
     {
         var paths = new List<string>(_paths) { boardId, "members" };
@@ -231,6 +239,11 @@ public class Boards : Client
         return await Put<object>(paths, qp);
     }
 
+    /// <summary>
+    /// Gets the all cards using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <returns>The cards</returns>
     public async Task<List<object>> GetAllCards(string boardId)
     {
         var paths = new List<string>(_paths) { boardId, "cards" };
@@ -238,21 +251,60 @@ public class Boards : Client
         return cards;
     }
 
+    /// <summary>
+    /// Gets the card using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <param name="cardId">The card id</param>
+    /// <returns>A task containing the card</returns>
     public async Task<Card> GetCard(string boardId, string cardId)
     {
         var paths = new List<string>(_paths) { boardId, "cards", cardId };
         return await Get<Card>(paths);
     }
 
+    /// <summary>
+    /// Gets the filtered cards using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <param name="filter">The filter</param>
+    /// <returns>A task containing a list of card</returns>
     public async Task<List<Card>> GetFilteredCards(string boardId, BoardFilter filter)
     {
         var paths = new List<string>(_paths) { boardId, "cards", Enum.GetName(filter) };
         return await Get<List<Card>>(paths);
     }
 
+    /// <summary>
+    /// Gets the custom fields using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <returns>A task containing a list of custom field</returns>
     public async Task<List<CustomField>> GetCustomFields(string boardId)
     {
         var paths = new List<string>(_paths) { boardId, "customFields" };
         return await Get<List<CustomField>>(paths);
+    }
+
+    /// <summary>
+    /// Gets the lists using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <returns>A task containing a list of trello list</returns>
+    public async Task<List<TrelloList>> GetLists(string boardId)
+    {
+        var paths = new List<string>(_paths) { boardId, "lists" };
+        return await Get<List<TrelloList>>(paths);
+    }
+
+    /// <summary>
+    /// Gets the checklists using the specified board id
+    /// </summary>
+    /// <param name="boardId">The board id</param>
+    /// <returns>A task containing a list of checklist</returns>
+    public async Task<List<Checklist>> GetChecklists(string boardId)
+    {
+        var paths = new List<string>(_paths) { boardId, "checklists" };
+        return await Get<List<Checklist>>(paths);
     }
 }

@@ -157,6 +157,14 @@ public abstract class Client
         return true;
     }
 
+    /// <summary>
+    /// Puts the paths
+    /// </summary>
+    /// <typeparam name="T">The </typeparam>
+    /// <param name="paths">The paths</param>
+    /// <param name="queryParams">The query params</param>
+    /// <exception cref="TrelloHttpError"></exception>
+    /// <returns>A task containing the</returns>
     protected async Task<T> Put<T>(IEnumerable<string> paths, Dictionary<string, string>? queryParams)
     {
         queryParams ??= new Dictionary<string, string>();

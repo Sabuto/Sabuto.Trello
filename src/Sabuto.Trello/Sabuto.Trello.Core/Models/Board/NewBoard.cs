@@ -1,4 +1,4 @@
-﻿namespace Sabuto.Trello.Core.Models.Board;
+namespace Sabuto.Trello.Core.Models.Board;
 
 /// <summary>
 /// Represents a new board when creating via the api

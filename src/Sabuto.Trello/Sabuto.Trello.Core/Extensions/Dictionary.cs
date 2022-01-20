@@ -1,11 +1,8 @@
 namespace Sabuto.Trello.Core.Extensions;
 
 /// <summary>
-
 /// The dictionary extensions class
-
 /// </summary>
-
 public static class Dictionary
 {
     /// <summary>

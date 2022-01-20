@@ -1,9 +1,7 @@
 namespace Sabuto.Trello.Core.Exceptions;
 
 /// <summary>
-
 /// The trello http error class
-
 /// </summary>
 
 /// <seealso cref="Exception"/>

@@ -1,4 +1,4 @@
-﻿using Flurl;
+using Flurl;
 using Flurl.Http;
 using RestSharp;
 using Sabuto.Trello.Core.Endpoints;
@@ -8,17 +8,38 @@ using Sabuto.Trello.Core.Models.Board;
 
 namespace Sabuto.Trello.Core;
 
-public class TelloClient
+/// <summary>
+/// The tello client class
+/// </summary>
+public class TrelloClient
 {
+    /// <summary>
+    /// The url
+    /// </summary>
     private readonly Url _baseUrl = new Url("https://trello.com/1");
     // private readonly Url _baseUrl = new Url("https://jsonplaceholder.typicode.com");
 
+    /// <summary>
+    /// The application key
+    /// </summary>
     private readonly string _applicationKey;
+
+    /// <summary>
+    /// The api token
+    /// </summary>
     private readonly string _apiToken;
 
+    /// <summary>
+    /// The boards
+    /// </summary>
     public Boards Boards;
 
-    public TelloClient(string applicationKey, string apiToken)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="TrelloClient"/> class
+    /// </summary>
+    /// <param name="applicationKey">The application key</param>
+    /// <param name="apiToken">The api token</param>
+    public TrelloClient(string applicationKey, string apiToken)
     {
         _applicationKey = applicationKey;
         _apiToken = apiToken;
@@ -26,15 +47,13 @@ public class TelloClient
         Boards = new Boards(applicationKey, apiToken);
     }
 
-    public async Task<Board> GetTodos()
-    {
-        var user = await _baseUrl.AppendPathSegment("boards").AppendPathSegment("6134f437aaa1854eaca84b19")
-            .SetQueryParam("key", "c292397a9d6b53f6b59b771a33882203").SetQueryParam("token",
-                "2fc9843ca0c8de99988798c14a651b40c7ed6c50719d90c6876085b32a6362fd")
-            .GetJsonAsync<Board>();
-        return user;
-    }
-
+    /// <summary>
+    /// Gets the paths
+    /// </summary>
+    /// <typeparam name="T">The </typeparam>
+    /// <param name="paths">The paths</param>
+    /// <param name="queryParams">The query params</param>
+    /// <returns>A task containing the</returns>
     public async Task<T> Get<T>(IEnumerable<string> paths, Dictionary<string, string>? queryParams = null)
     {
         queryParams ??= new Dictionary<string, string>();
@@ -42,6 +61,12 @@ public class TelloClient
         return await _baseUrl.AppendPathSegments(paths).SetQueryParams(queryParams).GetJsonAsync<T>();
     }
 
+    /// <summary>
+    /// Posts the paths
+    /// </summary>
+    /// <param name="paths">The paths</param>
+    /// <param name="json">The json</param>
+    /// <param name="queryParams">The query params</param>
     public async Task Post(IEnumerable<string> paths, object? json = null,
         Dictionary<string, string>? queryParams = null)
     {
@@ -53,6 +78,10 @@ public class TelloClient
         // return await _baseUrl.AppendPathSegments(paths).SetQueryParams(queryParams).PostJsonAsync(json);
     }
 
+    /// <summary>
+    /// Setup the authentication
+    /// </summary>
+    /// <returns>The query params</returns>
     private Dictionary<string, string> SetupAuthentication()
     {
         var queryParams = new Dictionary<string, string>();
@@ -61,7 +90,15 @@ public class TelloClient
         return queryParams;
     }
 
+    /// <summary>
+    /// Gets the api key
+    /// </summary>
+    /// <returns>The string</returns>
     public string GetApiKey() => _applicationKey;
 
+    /// <summary>
+    /// Gets the api token
+    /// </summary>
+    /// <returns>The string</returns>
     public string GetApiToken() => _apiToken;
 }

@@ -12,33 +12,21 @@ namespace Sabuto.Trello.Tests;
 [TestFixture]
 public class ClientTests
 {
-    private TelloClient _telloClient;
+    private TrelloClient _trelloClient;
 
     [SetUp]
     public void Setup()
     {
-        _telloClient = new TelloClient("c292397a9d6b53f6b59b771a33882203", "2fc9843ca0c8de99988798c14a651b40c7ed6c50719d90c6876085b32a6362fd");
+        _trelloClient = new TrelloClient("c292397a9d6b53f6b59b771a33882203",
+            "2fc9843ca0c8de99988798c14a651b40c7ed6c50719d90c6876085b32a6362fd");
     }
 
     [Test]
     public void AssertApiKeyAndTokenAreSet()
     {
-        Assert.IsNotNull(_telloClient.GetApiKey());
-        Assert.IsNotNull(_telloClient.GetApiToken());
-        Assert.IsNotEmpty(_telloClient.GetApiKey());
-        Assert.IsNotEmpty(_telloClient.GetApiToken());
-    }
-
-    [Test]
-    public async Task FlurlTest()
-    {
-        using (var httpTest = new HttpTest())
-        {
-            httpTest.RespondWithJson(body: new List<Board>());
-
-            await _telloClient.GetTodos();
-
-            httpTest.ShouldHaveCalled("https://jsonplaceholder.typicode.com/todos?userId=1").WithVerb(HttpMethod.Get);
-        }
+        Assert.IsNotNull(_trelloClient.GetApiKey());
+        Assert.IsNotNull(_trelloClient.GetApiToken());
+        Assert.IsNotEmpty(_trelloClient.GetApiKey());
+        Assert.IsNotEmpty(_trelloClient.GetApiToken());
     }
 }

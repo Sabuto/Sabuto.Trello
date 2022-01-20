@@ -1,6 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9beb5acb_002D81cb_002D491f_002Db851_002D3fd44f4fc4a9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ClientTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5f86dc08_002D4441_002D4bd2_002D9cd4_002D73ab6b1e0f8d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetBoard" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.ClientTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a78bc869_002D8ba8_002D47c2_002Dafac_002D16452212c146/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetBoard #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cda9aaec_002Da80d_002D48ac_002Da204_002D19433593f1bb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetBoard #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
