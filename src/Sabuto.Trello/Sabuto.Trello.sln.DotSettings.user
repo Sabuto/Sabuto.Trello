@@ -1,16 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5f86dc08_002D4441_002D4bd2_002D9cd4_002D73ab6b1e0f8d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetBoard" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a78bc869_002D8ba8_002D47c2_002Dafac_002D16452212c146/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetBoard #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cda9aaec_002Da80d_002D48ac_002Da204_002D19433593f1bb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetBoard #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5F9DFB8B-D06C-4F58-87D2-EED528A30F57::net6.0::Sabuto.Trello.Tests.BoardsTests.GetBoard&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\Rob\AppData\Local\JetBrains\Rider2021.3\resharper-host\temp\Rider\vAny\CoverageData\_Sabuto.Trello.1004796766\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=40c05f86_002Dca7d_002D47b6_002D8401_002D6ab639a743d5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Sabuto.Trello.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="F:\c#\Sabuto.Trello\src\Sabuto.Trello\Sabuto.Trello.Tests" Presentation="&amp;lt;Sabuto.Trello.Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
