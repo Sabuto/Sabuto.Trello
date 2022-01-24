@@ -8,16 +8,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
-    - name: Setup DocFX
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: install docfx
-    - name: Install dependencies
-      run: dotnet restore src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
-    - name: DocFX Build
-      working-directory: DocFx
-      run: docfx docfx.json
-      continue-on-error: false
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+      - name: Setup DocFX
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
+      - name: Install dependencies
+        run: dotnet restore src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj
+      - name: DocFX Build
+        working-directory: DocFx
+        run: docfx docfx.json
+        continue-on-error: false
