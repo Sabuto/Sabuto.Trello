@@ -1,0 +1,764 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/Sabuto.Trello/Sabuto.Trello/DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Base.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Base.Client.html",
+          "hash": "ORqTpJXBQI9YL7Pm8rGbC8r+sRs7SWk2AKaziYyoDEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Base.html",
+          "hash": "A8YdOtbbbDW6SdvBREUcHY3d90OUR4Jgi35f9l1Bvh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Endpoints.Boards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Endpoints.Boards.html",
+          "hash": "jndIUImx8ABZ5FPF/R2DooXNUcd1AQ8fxTMEcJ+BtiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Endpoints.html",
+          "hash": "SZl3a3Sm39hma729KRiUM0z3nL5Z6v9aar7jH4DE0Ss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Exceptions.TrelloHttpError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Exceptions.TrelloHttpError.html",
+          "hash": "EtcQp12cUqhCGcthk7J1TjKotHvj/zN2tu3+VuVV8ow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Exceptions.html",
+          "hash": "6rasPGp7Unkugfnjme+IO/kKDQy/74DHp8YewN+BV/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Extensions.Dictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Extensions.Dictionary.html",
+          "hash": "ks2OGqyqJYAxCFuzCn8QD3OepP2AioZyvXAtNzT0fGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Extensions.html",
+          "hash": "rcJPEa73wJ3DoGDj2Vcrq3Kz5zQdR5i32uMuHVVq3gc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Action.TrelloAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Action.TrelloAction.html",
+          "hash": "R9G/VpQSPxLl2eiPAxnfhPXVxa1qaDjJJcIpXTliVTo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Action.html",
+          "hash": "3HbBh9FBOh9/Nd0kX7vbCK4s/2Yls/HKj7orGIKDiEY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Badge.Badge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Badge.Badge.html",
+          "hash": "EkZKsX4M6geCGOTT+e9VE5DTGaJguRUX4lyVe8Fr6Ns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Badge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Badge.html",
+          "hash": "Phu4UKa6E+HbPXdrO/T9yXWGaKjN/MemNLe2OuxQlpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.Board.html",
+          "hash": "oC6UOega8JR2wbEqRxQzC36QaiYuTATqMgK6L9VKoUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFields.html",
+          "hash": "YbPXx8J9lnaUUzvzNVuqfb8heaEowliKtkrZr1Lo1vU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFilter.html",
+          "hash": "5ocw2RoIJTX8NeuPwpxApSl65VCQNc+RxqwTOZY/aXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardMember.html",
+          "hash": "8lX/zzkUI+tglcf4dMVRpAx7xR22BzXKrK3/edraE8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardStars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardStars.html",
+          "hash": "+spyss/+2WqQF6xTuGmrDUZCgCwjORbYqCBnWUir8dQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.CommentPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.CommentPermission.html",
+          "hash": "XfviEfq0ZbQlLjamXq1NyMTWtqRgnl93ZjB5Zv4jZFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomField.html",
+          "hash": "K99uNpJ6e/Cpxe2jkSbpxzdFTTze/vUw/mB25nZopDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplay.html",
+          "hash": "6SKc9QvW3SzGdThq1yyzqD/Ej2Mh5aouDa+cbhAhkDQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplayOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplayOptions.html",
+          "hash": "bWscDbeD06lWLHiQOOxcYPvRfRURrrj1KjmPGeVQTFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKey.html",
+          "hash": "TqdHrZjVjYwhAc0m+ZxnWphv/TG8okptfIIUr+qHUW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKeyPrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKeyPrefs.html",
+          "hash": "LLzhIgvtGbpHVrSlQmyynYW8d39VBZsPk3DiLJVQRes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.InvitationPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.InvitationPermission.html",
+          "hash": "XgDEDG6ZFS+6lyXnjtjri3T9kvjKCiOYnY1BPc575CA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.NewBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.NewBoard.html",
+          "hash": "4+/UszWzpQliE7KaaSCoAeCAvL5lnvS04+2a/R/Myn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.PermissionLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.PermissionLevel.html",
+          "hash": "Gfp4pDX8YelLBdM/sNV+N8gBpQC3pcEHMWfp9B8N4g4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUp.html",
+          "hash": "Rmb7fpzr0ALt+xflhd+em0wRdiokPVOdouC6DHAYqUM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUpsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUpsOptions.html",
+          "hash": "UneJP5gadfTvdes3m45VB6NaOsRWGE6I+YcmsYYQAPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.Preferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.Preferences.html",
+          "hash": "2yLSYzQu9nxce/CDw+07CO6jTl5x3sy/02g/0mobo5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.UpdateableBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.UpdateableBoard.html",
+          "hash": "NWSgz6E4tElea+x5Q+mutOz7o2wow/v4cITaF9KsnIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.VotingPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.VotingPermission.html",
+          "hash": "ZZ1dBv4Nje1XTqYZECbKbOmv5a8zujyLGN/JknKRIjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Board.html",
+          "hash": "NHiAjz0Wq/NslbZijCIt+SmqLzz5+zfQDzSGUoDkweE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Card.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Card.Card.html",
+          "hash": "cW+n++zmv8aEsQdqX2UqseY1YaScTZWDvCzYRf4yREE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Card.Cover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Card.Cover.html",
+          "hash": "V/FwwJOtSidffiH4AyNTaJ3aDinFp7FDMVNkKthxPsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Card.html",
+          "hash": "9ZofGiZQoVyDN+UMO3FB/jMOTJ7U6EK2kykLSTDqyDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Checklist.CheckItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Checklist.CheckItem.html",
+          "hash": "bTd+8eMdBZ86e4fGkxn4ABOqxI35b0GYWHW4BHc+rSg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Checklist.Checklist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Checklist.Checklist.html",
+          "hash": "4lQ5f+DpESWKVpARu90OK2HBvHiUfxCNUJLWz0ZzZgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Checklist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Checklist.html",
+          "hash": "70uU7CyoW33LACAYJ23yBHLtCddgyvL7GMg8gPUTjRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Interfaces.Board.IUpdateableBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Interfaces.Board.IUpdateableBoard.html",
+          "hash": "HuQdB7TAuhxSXCCENUmJNlL49FYpHw8loL5eEZ440Qc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Interfaces.Board.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Interfaces.Board.html",
+          "hash": "2UmNUgspjsGkwkn39wllEfQ3ujZW5ZFNC+Znx0FBG8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Label.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Label.Label.html",
+          "hash": "BQcC0JVqaw/R39tvoVM+X54X3CfXky4NfXUGD5Bsg1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Label.LabelColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Label.LabelColor.html",
+          "hash": "mLe3sC6O3UfiylgJcyx1bvBXJQ2albFbUgPUOkUw8KM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Label.html",
+          "hash": "gwighnQIljIgcMgL2sBQxKJld2L5s1X2OpQgjeqlPig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.List.TrelloList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.List.TrelloList.html",
+          "hash": "gYTEZpb2FYofYKl8m1Rxxytfhfs9WdcFMsuxYiCBxsk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.List.html",
+          "hash": "12AsPhmYTf6aVC+j1SeDWWo0Z+EeFQAQwFtxD/vpwuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Member.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Member.Member.html",
+          "hash": "WsB8f78i0/lBHj2mx4bz/Y9S7lzwPTD7jfy4QflXD9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Member.MemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Member.MemberType.html",
+          "hash": "sglR1IvVOnuHNQmgp+cyqtoW05EcGNyQ/wu613UvICw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Member.html",
+          "hash": "42uW68kNuv9LVvHO2rUyVKxpiTbDqFTAbwV4q5S4rfM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.TrelloClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.TrelloClient.html",
+          "hash": "2AW/awYb0a+7Mb15blZwr7QxdlaALrbPUSN6RbSCDBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.html",
+          "hash": "15vLZ1TgZWihJBX+VB/sN7nobHnHjefE68WQYFcp1yY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Tests.BoardsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Tests.BoardsTests.html",
+          "hash": "4DnGhhTm8fvBVheJJMTOEAOpe9N+4hE9TO91dWDHpKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Tests.ClientTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Tests.ClientTests.html",
+          "hash": "TzCxrPbpARK06D9nrzG0OMBxuD8wQ43g4682M03YpK4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Tests.html",
+          "hash": "ngxbVBd3pcr+SQRoJ3R1UNgMM91B1Ue0seYKOXi4f2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ta+hUw9dpb8PCnHg2+uIw7yKGGKNkdXyTYmom3psoHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "SbCBccvQjX0DHLJ1sGwHbYLpzjrYgo1TnU/JSaBhk/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "whb4iMn8fjCvbJJUXIMozaZENqVjLbhEwa9P5x6zHfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "R4MuJkzyuF2jYfiKxT36mxUB6HVDQX8PSCNU0d0fQP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 53,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
