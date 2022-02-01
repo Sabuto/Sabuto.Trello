@@ -19,7 +19,7 @@ jobs:
         run: |
           dotnet build src/Sabuto.Trello/Sabuto.Trello.Core/Sabuto.Trello.Core.csproj -p:Version=${VERSION} --configuration Release
       - name: Authenticate with github
-        run: dotnet nuget add source --username sabuto --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/OWNER/index.json"
+        run: dotnet nuget add source --username sabuto --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/sabuto/index.json"
       - name: Publish to Nuget
         run: dotnet nuget push src/Sabuto.Trello/Sabuto.Trello.Core/bin/Release/Sabuto.Trello.${VERSION}.nupkg --api-key ${{secrets.NUGET_API}} -s 'https://api.nuget.org/v3/index.json'
       - name: Publish to Github
