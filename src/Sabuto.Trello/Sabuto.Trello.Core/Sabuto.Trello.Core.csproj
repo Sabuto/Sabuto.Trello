@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageId>Sabuto.Trello</PackageId>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageVersion></PackageVersion>
         <Title>Sabuto Trello</Title>
         <Authors>Sabuto</Authors>
         <Description>This will allow you to integrate the Trello endpoints into your application</Description>
