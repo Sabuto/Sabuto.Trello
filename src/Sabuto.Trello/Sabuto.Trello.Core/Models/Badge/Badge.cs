@@ -1,7 +1,7 @@
 namespace Sabuto.Trello.Core.Models.Badge;
 
 /// <summary>
-/// The badge
+/// The model that represents a Badge in Trello
 /// </summary>
 
 public struct Badge

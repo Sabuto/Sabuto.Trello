@@ -20,6 +20,9 @@
         <PackageReference Include="Bogus" Version="34.0.1" />
         <PackageReference Include="Flurl" Version="3.0.2" />
         <PackageReference Include="Flurl.Http" Version="3.2.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Refit" Version="6.1.15" />
+        <PackageReference Include="Refit.Newtonsoft.Json" Version="6.1.15" />
         <PackageReference Include="RestSharp" Version="107.0.3" />
     </ItemGroup>
 

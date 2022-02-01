@@ -1,42 +1,28 @@
-﻿using System.Net.Http;
-using System.Threading.Tasks;
-using Flurl.Http.Testing;
+﻿using System.Threading.Tasks;
+using NSubstitute;
 using NUnit.Framework;
-using Sabuto.Trello.Core;
-using Sabuto.Trello.Core.Models.Board;
+using Sabuto.Trello.Core.Services.Interfaces;
 
 namespace Sabuto.Trello.Tests;
 
 [TestFixture]
 public class BoardsTests
 {
-    private TrelloClient _trelloClient;
-    private HttpTest _httpTest;
-
-    [SetUp]
-    public void Setup()
-    {
-        _trelloClient = new TrelloClient("apikey",
-            "apitoken");
-        _httpTest = new HttpTest();
-    }
+    private readonly IBoard? _mock = Substitute.For<IBoard>();
 
     [Test]
     public async Task GetBoard()
     {
-        _httpTest
-            .RespondWithJson(Board.FakeData.Generate());
+        var test = await _mock?.GetBoard("test");
 
-
-        var board = await _trelloClient.Boards.GetBoard("anyId");
-
-        _httpTest.ShouldHaveCalled(
-            "https://api.trello.com/1/boards/anyId?key=apikey&token=apitoken").WithVerb(HttpMethod.Get).Times(1);
+        await _mock.Received().GetBoard("test");
     }
 
-    [TearDown]
-    public void Dispose()
+    [Test]
+    public async Task GetAllCards()
     {
-        _httpTest.Dispose();
+        await _mock?.GetAllCards("test");
+
+        await _mock.Received().GetAllCards("test");
     }
 }

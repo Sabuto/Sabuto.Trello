@@ -1,3 +1,5 @@
+using Refit;
+
 namespace Sabuto.Trello.Core.Models.Board;
 
 /// <summary>
@@ -8,16 +10,19 @@ public class NewBoard
     /// <summary>
     /// The name of the board. 1 to 16384 characters long
     /// </summary>
+    [AliasAs("name")]
     public string Name { get; set; }
 
     /// <summary>
     /// Determines whether to use the default set of labels.
     /// </summary>
+    [AliasAs("defaultLabels")]
     public bool DefaultLabels { get; set; } = true;
 
     /// <summary>
     /// Determines whether to add the default set of lists to a board (To Do, Doing, Done). It is ignored if <see cref="IdBoardSource"/> is provided.
     /// </summary>
+    [AliasAs("defaultLists")]
     public bool DefaultLists { get; set; } = true;
 
     /// <summary>

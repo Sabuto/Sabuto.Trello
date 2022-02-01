@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 namespace Sabuto.Trello.Core.Models.Action;
 
 /// <summary>
-/// The trello action class
+/// The model that represents an Action in Trello
 /// </summary>
 public class TrelloAction
 {
@@ -13,7 +13,7 @@ public class TrelloAction
     /// </summary>
     [JsonProperty("id")] public string Id { get; set; }
     /// <summary>
-    /// Gets or sets the value of the id member creator
+    /// Gets or sets the value of the creator member id
     /// </summary>
     [JsonProperty("idMemberCreator")] public string IdMemberCreator { get; set; }
     /// <summary>
