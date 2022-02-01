@@ -1,0 +1,1013 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IBoard
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IBoard
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard">
+  
+  
+  <h1 id="Sabuto_Trello_Core_Services_Interfaces_IBoard" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard" class="text-break">Interface IBoard
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sabuto.Trello.Core.Services.Interfaces.html">Sabuto.Trello.Core.Services.Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: Sabuto.Trello.dll</h6>
+  <h5 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IBoard</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateBoard_Sabuto_Trello_Core_Models_Board_NewBoard_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateBoard(Sabuto.Trello.Core.Models.Board.NewBoard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L32">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateBoard_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateBoard*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateBoard_Sabuto_Trello_Core_Models_Board_NewBoard_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateBoard(Sabuto.Trello.Core.Models.Board.NewBoard)">CreateBoard(NewBoard)</h4>
+  <div class="markdown level1 summary"><p>Creates the board using the specified board</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Post(&quot;/boards&quot;)]
+Task&lt;ApiResponse&lt;Board&gt;&gt; CreateBoard(NewBoard board)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sabuto.Trello.Core.Models.Board.NewBoard.html">NewBoard</a></td>
+        <td><span class="parametername">board</span></td>
+        <td><p>The board</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.Board.html">Board</a>&gt;&gt;</td>
+        <td><p>A task containing an api response of board</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateCalendarKey_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateCalendarKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L146">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateCalendarKey_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateCalendarKey*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateCalendarKey_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateCalendarKey(System.String)">CreateCalendarKey(String)</h4>
+  <div class="markdown level1 summary"><p>Creates the calendar key using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Post(&quot;/boards/{id}/calendarKey/generate&quot;)]
+Task&lt;ApiResponse&lt;object&gt;&gt; CreateCalendarKey(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A task containing an api response of object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateEmailKey_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateEmailKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L138">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateEmailKey_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateEmailKey*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateEmailKey_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateEmailKey(System.String)">CreateEmailKey(String)</h4>
+  <div class="markdown level1 summary"><p>Creates the email key using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Post(&quot;/boards/{id}/emailKey/generate&quot;)]
+Task&lt;ApiResponse&lt;EmailKey&gt;&gt; CreateEmailKey(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.EmailKey.html">EmailKey</a>&gt;&gt;</td>
+        <td><p>A task containing an api response of email key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateLabel_System_String_Sabuto_Trello_Core_Models_Label_Label_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateLabel(System.String%2CSabuto.Trello.Core.Models.Label.Label)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L73">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateLabel_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateLabel*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_CreateLabel_System_String_Sabuto_Trello_Core_Models_Label_Label_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.CreateLabel(System.String,Sabuto.Trello.Core.Models.Label.Label)">CreateLabel(String, Label)</h4>
+  <div class="markdown level1 summary"><p>Creates the label using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Post(&quot;/boards/{id}/labels&quot;)]
+Task&lt;ApiResponse&lt;Label&gt;&gt; CreateLabel(string id, Label label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sabuto.Trello.Core.Models.Label.Label.html">Label</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>The label</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Label.Label.html">Label</a>&gt;&gt;</td>
+        <td><p>A task containing an api response of label</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_DeleteBoard_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.DeleteBoard(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L40">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_DeleteBoard_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.DeleteBoard*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_DeleteBoard_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.DeleteBoard(System.String)">DeleteBoard(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes the board using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Delete(&quot;/boards/{id}&quot;)]
+Task&lt;ApiResponse&lt;object&gt;&gt; DeleteBoard(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A task containing an api response of object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetActions_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetActions(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L48">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetActions_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetActions*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetActions_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetActions(System.String)">GetActions(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the actions using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/actions&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;TrelloAction&gt;&gt;&gt; GetActions(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Action.TrelloAction.html">TrelloAction</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable trello action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetAllCards_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetAllCards(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L97">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetAllCards_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetAllCards*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetAllCards_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetAllCards(System.String)">GetAllCards(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the all cards using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/cards&quot;)]
+Task&lt;ApiResponse&lt;object&gt;&gt; GetAllCards(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A task containing an api response of object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetBoard_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetBoard(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L24">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetBoard_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetBoard*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetBoard_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetBoard(System.String)">GetBoard(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the board using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}&quot;)]
+Task&lt;ApiResponse&lt;Board&gt;&gt; GetBoard(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.Board.html">Board</a>&gt;&gt;</td>
+        <td><p>A task containing an api response of board</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCard_System_String_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCard(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L106">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCard_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCard*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCard_System_String_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCard(System.String,System.String)">GetCard(String, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the card using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/cards/{cardId}&quot;)]
+Task&lt;ApiResponse&lt;Card&gt;&gt; GetCard(string id, string cardId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cardId</span></td>
+        <td><p>The card id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Card.Card.html">Card</a>&gt;&gt;</td>
+        <td><p>A task containing an api response of card</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetChecklists_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetChecklists(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L130">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetChecklists_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetChecklists*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetChecklists_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetChecklists(System.String)">GetChecklists(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the checklists using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/checklists&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;Checklist&gt;&gt;&gt; GetChecklists(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Checklist.Checklist.html">Checklist</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable checklist</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCustomFields_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCustomFields(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L114">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCustomFields_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCustomFields*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetCustomFields_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetCustomFields(System.String)">GetCustomFields(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the custom fields using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/customFields&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;CustomField&gt;&gt;&gt; GetCustomFields(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.CustomField.html">CustomField</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable custom field</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLabels_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLabels(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L64">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLabels_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLabels*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLabels_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLabels(System.String)">GetLabels(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the labels using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/labels&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;Label&gt;&gt;&gt; GetLabels(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Label.Label.html">Label</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable label</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLists_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLists(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L122">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLists_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLists*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetLists_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetLists(System.String)">GetLists(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the lists using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/lists&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;TrelloList&gt;&gt;&gt; GetLists(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.List.TrelloList.html">TrelloList</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable trello list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetMemberships_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetMemberships(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L81">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetMemberships_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetMemberships*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetMemberships_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetMemberships(System.String)">GetMemberships(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the memberships using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/memberships&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;BoardMember&gt;&gt;&gt; GetMemberships(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.BoardMember.html">BoardMember</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable board member</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetPowerUps_System_String_Sabuto_Trello_Core_Models_Board_PowerUpsOptions_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetPowerUps(System.String%2CSabuto.Trello.Core.Models.Board.PowerUpsOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L155">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetPowerUps_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetPowerUps*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetPowerUps_System_String_Sabuto_Trello_Core_Models_Board_PowerUpsOptions_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetPowerUps(System.String,Sabuto.Trello.Core.Models.Board.PowerUpsOptions)">GetPowerUps(String, PowerUpsOptions)</h4>
+  <div class="markdown level1 summary"><p>Gets the power ups using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/plugins&quot;)]
+Task&lt;ApiResponse&lt;object&gt;&gt; GetPowerUps(string id, PowerUpsOptions filter = PowerUpsOptions.enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sabuto.Trello.Core.Models.Board.PowerUpsOptions.html">PowerUpsOptions</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A task containing an api response of object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_GetStars_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.GetStars(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L56">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetStars_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetStars*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_GetStars_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.GetStars(System.String)">GetStars(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the stars using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Get(&quot;/boards/{id}/boardStars&quot;)]
+Task&lt;ApiResponse&lt;IEnumerable&lt;BoardStars&gt;&gt;&gt; GetStars(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="Sabuto.Trello.Core.Models.Board.BoardStars.html">BoardStars</a>&gt;&gt;&gt;</td>
+        <td><p>A task containing an api response of i enumerable board stars</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard_MarkAsViewed_System_String_.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard.MarkAsViewed(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L89">View Source</a>
+  </span>
+  <a id="Sabuto_Trello_Core_Services_Interfaces_IBoard_MarkAsViewed_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.MarkAsViewed*"></a>
+  <h4 id="Sabuto_Trello_Core_Services_Interfaces_IBoard_MarkAsViewed_System_String_" data-uid="Sabuto.Trello.Core.Services.Interfaces.IBoard.MarkAsViewed(System.String)">MarkAsViewed(String)</h4>
+  <div class="markdown level1 summary"><p>Marks the as viewed using the specified id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Post(&quot;/boards/{id}/markedAsViewed&quot;)]
+Task&lt;ApiResponse&lt;object&gt;&gt; MarkAsViewed(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Refit.ApiResponse</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A task containing an api response of object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Sabuto/Sabuto.Trello/new/bc999476ea89cd56a6a116adb0be407e79e9b4f4/apiSpec/new?filename=Sabuto_Trello_Core_Services_Interfaces_IBoard.md&amp;value=---%0Auid%3A%20Sabuto.Trello.Core.Services.Interfaces.IBoard%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Sabuto/Sabuto.Trello/blob/bc999476ea89cd56a6a116adb0be407e79e9b4f4/src/Sabuto.Trello/Sabuto.Trello.Core/Services/Interfaces/IBoard.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
