@@ -27,6 +27,7 @@ public interface ICard
     /// <returns>A task containing an api response of object</returns>
     [Delete("/card/{id}")]
     Task<ApiResponse<object>> DeleteCard(string id);
-    
-    
+
+    [Post("/cards/")]
+    Task<ApiResponse<Card>> CreateCard([Query]NewCard card);
 }
