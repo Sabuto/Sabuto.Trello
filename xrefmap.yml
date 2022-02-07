@@ -2238,6 +2238,64 @@ references:
   isSpec: "True"
   fullName: Sabuto.Trello.Core.Models.Card.Cover.Size
   nameWithType: Cover.Size
+- uid: Sabuto.Trello.Core.Models.Card.NewCard
+  name: NewCard
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html
+  commentId: T:Sabuto.Trello.Core.Models.Card.NewCard
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard
+  nameWithType: NewCard
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.#ctor(System.String,System.String)
+  name: NewCard(String, String)
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard__ctor_System_String_System_String_
+  commentId: M:Sabuto.Trello.Core.Models.Card.NewCard.#ctor(System.String,System.String)
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.NewCard(System.String, System.String)
+  nameWithType: NewCard.NewCard(String, String)
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.#ctor*
+  name: NewCard
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard__ctor_
+  commentId: Overload:Sabuto.Trello.Core.Models.Card.NewCard.#ctor
+  isSpec: "True"
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.NewCard
+  nameWithType: NewCard.NewCard
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.desc
+  name: desc
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_desc
+  commentId: P:Sabuto.Trello.Core.Models.Card.NewCard.desc
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.desc
+  nameWithType: NewCard.desc
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.desc*
+  name: desc
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_desc_
+  commentId: Overload:Sabuto.Trello.Core.Models.Card.NewCard.desc
+  isSpec: "True"
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.desc
+  nameWithType: NewCard.desc
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.idList
+  name: idList
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_idList
+  commentId: P:Sabuto.Trello.Core.Models.Card.NewCard.idList
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.idList
+  nameWithType: NewCard.idList
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.idList*
+  name: idList
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_idList_
+  commentId: Overload:Sabuto.Trello.Core.Models.Card.NewCard.idList
+  isSpec: "True"
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.idList
+  nameWithType: NewCard.idList
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.name
+  name: name
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_name
+  commentId: P:Sabuto.Trello.Core.Models.Card.NewCard.name
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.name
+  nameWithType: NewCard.name
+- uid: Sabuto.Trello.Core.Models.Card.NewCard.name*
+  name: name
+  href: api/Sabuto.Trello.Core.Models.Card.NewCard.html#Sabuto_Trello_Core_Models_Card_NewCard_name_
+  commentId: Overload:Sabuto.Trello.Core.Models.Card.NewCard.name
+  isSpec: "True"
+  fullName: Sabuto.Trello.Core.Models.Card.NewCard.name
+  nameWithType: NewCard.name
 - uid: Sabuto.Trello.Core.Models.Checklist
   name: Sabuto.Trello.Core.Models.Checklist
   href: api/Sabuto.Trello.Core.Models.Checklist.html
@@ -3155,6 +3213,19 @@ references:
   commentId: T:Sabuto.Trello.Core.Services.Interfaces.ICard
   fullName: Sabuto.Trello.Core.Services.Interfaces.ICard
   nameWithType: ICard
+- uid: Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard(Sabuto.Trello.Core.Models.Card.NewCard)
+  name: CreateCard(NewCard)
+  href: api/Sabuto.Trello.Core.Services.Interfaces.ICard.html#Sabuto_Trello_Core_Services_Interfaces_ICard_CreateCard_Sabuto_Trello_Core_Models_Card_NewCard_
+  commentId: M:Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard(Sabuto.Trello.Core.Models.Card.NewCard)
+  fullName: Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard(Sabuto.Trello.Core.Models.Card.NewCard)
+  nameWithType: ICard.CreateCard(NewCard)
+- uid: Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard*
+  name: CreateCard
+  href: api/Sabuto.Trello.Core.Services.Interfaces.ICard.html#Sabuto_Trello_Core_Services_Interfaces_ICard_CreateCard_
+  commentId: Overload:Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard
+  isSpec: "True"
+  fullName: Sabuto.Trello.Core.Services.Interfaces.ICard.CreateCard
+  nameWithType: ICard.CreateCard
 - uid: Sabuto.Trello.Core.Services.Interfaces.ICard.DeleteCard(System.String)
   name: DeleteCard(String)
   href: api/Sabuto.Trello.Core.Services.Interfaces.ICard.html#Sabuto_Trello_Core_Services_Interfaces_ICard_DeleteCard_System_String_
@@ -3296,6 +3367,12 @@ references:
   commentId: F:Sabuto.Trello.Core.Services.TrelloClient.Boards
   fullName: Sabuto.Trello.Core.Services.TrelloClient.Boards
   nameWithType: TrelloClient.Boards
+- uid: Sabuto.Trello.Core.Services.TrelloClient.Cards
+  name: Cards
+  href: api/Sabuto.Trello.Core.Services.TrelloClient.html#Sabuto_Trello_Core_Services_TrelloClient_Cards
+  commentId: F:Sabuto.Trello.Core.Services.TrelloClient.Cards
+  fullName: Sabuto.Trello.Core.Services.TrelloClient.Cards
+  nameWithType: TrelloClient.Cards
 - uid: Sabuto.Trello.Core.Services.TrelloClient.Checklists
   name: Checklists
   href: api/Sabuto.Trello.Core.Services.TrelloClient.html#Sabuto_Trello_Core_Services_TrelloClient_Checklists

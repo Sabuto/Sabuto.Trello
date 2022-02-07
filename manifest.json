@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Converters.BoolToLowerConverter.html",
-          "hash": "sgYq1r42ch4mk1RMYK838z0JHlnTSzOAFQdmqSmxSLM="
+          "hash": "LKmww9AyC/XdXC3pMA+jBOAv8VYhpxx3e/v+NDGIY68="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Extensions.IEnumerable.html",
-          "hash": "9/c34aS8xfgtSuInHpVlzepfMU4clfr0G3lfPVmFp6E="
+          "hash": "3oEbEEMGtQSQstvtYQ7PD/ZCUeWA7vEN9C/QfEa4sIU="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Action.TrelloAction.html",
-          "hash": "5bAfwigmp0U2uUJUKivU0V2lf0liBXRJO/HBnyUaOck="
+          "hash": "Sf785xEzqoRxaDvqDR4MUgm5yQ3OePFBxIpMcDOoCdA="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Badge.Badge.html",
-          "hash": "uHdcSPzp3KulJLSLtVdOErY/3U6NimWq4lbZ4gkYYEE="
+          "hash": "/h+nTHLV6qVNp3vghlWZ9X98T4++PZjOAPY29wZ1Sto="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.Board.html",
-          "hash": "q43iWpfpS6NBzdEnqhzilCeM/Nf8vd5xcorz36UhZBI="
+          "hash": "jIqjJllOz0nHOs/9rJVSVI05klKSJOE5DqeEubINHJU="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFields.html",
-          "hash": "plvoTne0rTTq6v0+LGRliacYVUJdf+MLoNMGtgEeO7E="
+          "hash": "bN03WCyGY/GOPiF6SgkeaI/bgJCCem6WJ38bBwlTDcg="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardFilter.html",
-          "hash": "7H7Gq6U29PwzI77UV2gdw8aTEvrAJekzrCRkMROJPI8="
+          "hash": "KF6wAygad09DScXmSji6mwFYI+OH+DKggG9eMmpWgxk="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardMember.html",
-          "hash": "Y/PF+kfwSFOP8Hmt7LGRGFdeFEC455VTK4Db/Iqsix8="
+          "hash": "Fs1TfWhSZ3wB4YmIhgwbsXZDRBszuFFmlgp3AJwkKFk="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.BoardStars.html",
-          "hash": "OzdaeLDUrob8baA6haqFCoo6mpVkJBMbwmKbYhekr1k="
+          "hash": "8+8jdePkN1VIYlJ8t5o17FIUZ/+Rapb0x3SFDULNOFI="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.CommentPermission.html",
-          "hash": "VAk2Wyjj5nUDugHhGhTKsWqRL5OdWtSSx6TZxVaddCw="
+          "hash": "ER0gYWdqJQt8MDmTqqAf+lF6ByyGXR475+y7vKNmoH8="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomField.html",
-          "hash": "ybNFk8jrnEJuvwdPITKjwYqWFpoALHefMvYLRK8OrRo="
+          "hash": "LGA1CrXY9HuTzRVSRYHQvghFM0LoIm2+TbSVvom0G3Q="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplay.html",
-          "hash": "a+2O6X4bxTMNTzMQ5/WaRKNY2BsbSScSiX4lSBMcLz0="
+          "hash": "5AfVxPypk5x9M1m0xCJwHcQG+6wRO9DrK7Ux4jRU/dI="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.CustomFieldDisplayOptions.html",
-          "hash": "zdhd7BGNtb0C3EuX3tGScdwaiUy1oQXYCt+zPIGuiMA="
+          "hash": "jGIt/STtRAge83VOO1wPW+TsnJh0dSMbigr3z7VlP8A="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKey.html",
-          "hash": "txSUaplsUeNtEZCu0EKVCk53IoluvVzAeoRUowgGhzo="
+          "hash": "qyNi8bjCDjZ7rgQsujI73YtcBNyQXyw0gAbn9iWNdfU="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.EmailKeyPrefs.html",
-          "hash": "/ip+agMhZvSPXgJgwFM1eGatWge01z7K8ag+HyZRCGQ="
+          "hash": "nS1cEscfFwmt5OSEvIwLbYtpK1fZ/e+bSnCsGxN14Ns="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.InvitationPermission.html",
-          "hash": "E4PgOGl9tOR7ksX+fC8xmKqybVTWdbS8jBdA2qfzx2s="
+          "hash": "9Co+krAw7je7COv9GribBs3b0QAsVExoCQeSepWR2o4="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.NewBoard.html",
-          "hash": "Q6Tf9pi9c+PshNplK97RhcExk3jitE4ZjZa8Zn9rnvE="
+          "hash": "PXXu65gthFLavTe3hNkfDKpfn2Gh0LlUoP6XTwcc0vo="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.PermissionLevel.html",
-          "hash": "b+TknRa7GajJBEKI9r0gPSQ/oeMekk9PPM3ETxLSyhQ="
+          "hash": "57Q0KdRB+dHx4CPIWh3zm8es2sxmoRtuBkVTexBssAc="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUp.html",
-          "hash": "I1fWxZ9p2Lg2B3QmH+Qk1cXsrLA5+iQ6WEGVmYzT4CI="
+          "hash": "GSZL2ey/61QC1aS/4xVfJsD4xtP/8uULZJhvr9UtC94="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.PowerUpsOptions.html",
-          "hash": "vDKImj7kPIVV8EpuNiypBxIVqlzw7Vy42swgt1m26uQ="
+          "hash": "s5UBlanitEP/8vzi62YIW73fPqXB73A8u+48mH3V8o4="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.Preferences.html",
-          "hash": "kjtlxRn3AhM4AvsUXy1iEmKF1LwuusPwqIizc5ofU3o="
+          "hash": "UftYNP7sQmwhEWfcsN0Vo4qpArnJ9fuvCZ/auyyciqY="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.UpdateableBoard.html",
-          "hash": "etuOJWjeRDj2nPhNyo51u41zLirflgpM9kL6KI2pyKQ="
+          "hash": "v5PQvdM6aLgh2ud03rMlXqy8+WcdLr5IgxsJpoGAvUM="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Board.VotingPermission.html",
-          "hash": "ShG7UY/5Pdz47lPBa13zPY6n/VYZoKEi8zD9ieswfDA="
+          "hash": "mL2QSnp+gw6BtP8wp5nK8jRd0d/An0cyr2Yf6kTbGxg="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Card.Card.html",
-          "hash": "JzVTvs1TASi+Bx9moEM/ZN5qVtCtv5PlN23jjvKpNXQ="
+          "hash": "C/IMOsCHXNTS816gJ3S/tMV1suh2D+i/LMucF1GHti4="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Card.Cover.html",
-          "hash": "3Irow/O8ilS8BwHYv+2cUfiixrr9TVT6vKcyQPQHD5o="
+          "hash": "i1Bn+Cxrx7g1TqV/LMOM9/3xOk8bf9is9ady8Ud8U6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sabuto.Trello.Core.Models.Card.NewCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sabuto.Trello.Core.Models.Card.NewCard.html",
+          "hash": "tMidE7NG1gB2hY6ZoZ7HLTl9qStK8tUlp9ORwfPs+w8="
         }
       },
       "is_incremental": false,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Card.html",
-          "hash": "9ZofGiZQoVyDN+UMO3FB/jMOTJ7U6EK2kykLSTDqyDE="
+          "hash": "q7QwOStzl/JEg2IMBwSKxvqLG5vrwficpWRe4T9UlLE="
         }
       },
       "is_incremental": false,
@@ -381,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Checklist.CheckItem.html",
-          "hash": "trsuzbiasUja8b2epcWOxBuUUB//xmmJC1ZhAviUh0U="
+          "hash": "18tjMqXls8dXTE9PfXpcKP1LhjM/Tog74gDXjIMm2bs="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Checklist.Checklist.html",
-          "hash": "O4ApRsZ3TFxbuS1ZuVbR46OQ4xlUNSgHBHOsGZM64go="
+          "hash": "r9urqdhReIHxikVzYtagsCTfUFpM8azxtKx5USP9nbw="
         }
       },
       "is_incremental": false,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Interfaces.Board.IUpdateableBoard.html",
-          "hash": "4+l8vo7nqg97vdKdWFHwo8Tl6zEf7KTItXUIT9YUSYw="
+          "hash": "KvkhuU9fW/YJaSVeQy8FU92mIjTvPJsIwFv9/e08Xvc="
         }
       },
       "is_incremental": false,
@@ -441,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Label.Label.html",
-          "hash": "LgUP4VVfhdiZ97qhsuiKHGDgslq+ecWIMYTgqw+4OW0="
+          "hash": "GxYLsZnKk8lFaqOF1xwQEWFE52cGAfhFkeiZ/LjsQJU="
         }
       },
       "is_incremental": false,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Label.LabelColor.html",
-          "hash": "N5K+S9tZ8uP+HMJdKonEWP5e5vgkSIbJmFkjgXEG06Y="
+          "hash": "82y3MYjppbbpyP7dj3cx4XK4BBbbbdiYGqUfmjuoCz0="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.List.TrelloList.html",
-          "hash": "1e8PN9af6nRbDvHV3AOq93Erc7pXI0FVrfE+55Ht4zU="
+          "hash": "+PNTGjKJos0p3Wx37BODT95ZpicHEyM1slDdMoeaOyw="
         }
       },
       "is_incremental": false,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Member.Member.html",
-          "hash": "by3CWVLKNOLbzXqEcYwq9bdH8EnxNaNdJ7btULNF/04="
+          "hash": "GPh0c4rNEIaP4cqOw1/ncWAPQ1Ku3T0uzJ2rUWjjobU="
         }
       },
       "is_incremental": false,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Models.Member.MemberType.html",
-          "hash": "jLI5/ES5g9AumvbwU9snEBJStdmEfdMruf8XwcXdXqc="
+          "hash": "nY7+axYIV1TzTeYxVIHkzivtQqGHRlaUtKPPCNg/soE="
         }
       },
       "is_incremental": false,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.Handler.QueryStringInjectHttpMessageHandler.html",
-          "hash": "8eOWlu+O7U4B9sPp6XaESWGPsppjtnb7nUm9B5ITdX4="
+          "hash": "tKRrJ0dh3BsyasvsICULMuVEqpqBR8XkY+tIz38dhvg="
         }
       },
       "is_incremental": false,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.Interfaces.IBoard.html",
-          "hash": "h1Po5QZGs3EmeP2XBqIvqZs0IPr9/LadzoSe3da9glM="
+          "hash": "rP/2ioYz9FuoEH2BxBTEfI/HyTjMmZS8kNiMAuTT9Kw="
         }
       },
       "is_incremental": false,
@@ -573,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.Interfaces.ICard.html",
-          "hash": "LmnJ6sWhZvkwXGTcfCpQsQmQuxfR4HNquS20KK7UYgY="
+          "hash": "e4FtRL/H2YcTqRnJ03cSJw1djf+vVRvc64SmIV3QEbk="
         }
       },
       "is_incremental": false,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.Interfaces.IChecklist.html",
-          "hash": "pFPXbH2jlE8GHUYlDRAoTuGRqU25u5MJz0Pi0kcTXpU="
+          "hash": "ETiv41AoJ5xi6+CE/qe68mhmoMdobRUIdILQYew6wmA="
         }
       },
       "is_incremental": false,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.Interfaces.IList.html",
-          "hash": "0I4YxHY2F+IuZFd2bc2ZraaHIt3cC+D6pkm1qFcOMTc="
+          "hash": "ME1lftjsLsCGZcz2r3G3l0fbHY1VBUxzQqXtTO9hWCE="
         }
       },
       "is_incremental": false,
@@ -621,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.TrelloClient.html",
-          "hash": "zkRVM+Ahyrl78deDpl7vPbBh/DeU+Qr7kcpuWx7SCNY="
+          "hash": "xCZtDAkpteQ6oD//4/rFSrcLSfZbKU5PKjOV3/MNWDk="
         }
       },
       "is_incremental": false,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Core.Services.html",
-          "hash": "3DOuT+dvRY85vNcRjDXY8yGluY/OdstLVpG4OdBlcsQ="
+          "hash": "P7BXKZoSFdXmZvqGYBq1kelHJeawpcHAa/xJd2kGx0A="
         }
       },
       "is_incremental": false,
@@ -645,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sabuto.Trello.Tests.BoardsTests.html",
-          "hash": "Cq9x/5PJebZ9o3wiXVaa9WcJYb8E4Tx8+W0ugHMvsnk="
+          "hash": "A7yFGhhFy/ceizCCE4frFvTbRAt98eW/ehUo4uNkMec="
         }
       },
       "is_incremental": false,
@@ -669,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "HUDJ8gVgut1CAUEeGFPfxDvVmeT52sKrvL0SAm1AeiY="
+          "hash": "2BxCwRqXOANczoCR4Sr6ao8itkyfp4m1Tj+O/e37ewE="
         }
       },
       "is_incremental": false,
@@ -681,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "z5JufF5P75RVmBOcKufEZf8hHMogthLu6DfmGQSuii0="
+          "hash": "rUu07LWKBa+eDge8eocVJrpUAQKEJR8ZtnRllFNg4Sg="
         }
       },
       "is_incremental": false,
@@ -693,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "x1+Q1mmfanr55m+sMEgVt56a1wX0lCrP0n+2ztfOplw="
+          "hash": "byge+HIlNWbkJryzcq5lfV745oQzBnFafdSoQ//PB5g="
         }
       },
       "is_incremental": false,
@@ -717,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+UInj2k+WMXpOdgN3/AtwYt/93lCEkBdGw4s+7Fa1mI="
+          "hash": "3NKFvJ4uDnLSPz31zuVoNz5XTa3gsjhf/pP+MC9OBgE="
         }
       },
       "is_incremental": false,
@@ -756,7 +768,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 55,
+          "total_file_count": 56,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
